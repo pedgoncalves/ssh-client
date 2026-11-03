@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { margin: 0; background: #0b1018; }
+button, input { font: inherit; }
+input:not([type='file']) { width: 100%; border-radius: 0.5rem; border: 1px solid rgba(255,255,255,.09); background: #0b1018; padding: .7rem .8rem; color: #d3dae6; font-size: .75rem; outline: none; transition: border-color .2s, box-shadow .2s; }
+input:not([type='file']):focus { border-color: rgba(116,226,165,.65); box-shadow: 0 0 0 3px rgba(116,226,165,.08); }
+input::placeholder { color: #526174; }
+.field-icon { position: absolute; left: .75rem; top: .7rem; width: 1rem; height: 1rem; color: #5d6b7e; }
+.field-icon + input { padding-left: 2.25rem; }
+.xterm { height: 100%; padding: 2px; }
+.xterm-viewport::-webkit-scrollbar { width: 7px; }
+.xterm-viewport::-webkit-scrollbar-thumb { background: #27384c; border-radius: 999px; }

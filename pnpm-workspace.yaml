@@ -1,0 +1,9 @@
+pmOnFail: ignore
+
+minimumReleaseAgeExclude:
+  - '@next/*'
+  - next
+
+allowBuilds:
+  cpu-features: set this to true or false
+  ssh2: set this to true or false
